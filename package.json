@@ -1,0 +1,33 @@
+{
+  "name": "winston-winlog2",
+  "version": "0.0.1",
+  "description": "Windows Event Log logger for the node.js Winston module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteward44/winston-winlog2.git"
+  },
+  "keywords": [
+    "windows",
+    "services",
+    "log",
+    "logging",
+    "logger",
+    "winston"
+  ],
+  "author": {
+    "name": "Pete Ward",
+    "email": "peteward44@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peteward44/winston-winlog2/issues"
+  },
+  "homepage": "https://github.com/peteward44/winston-winlog2",
+  "dependencies": {
+    "node-windows": "^0.1.7"
+  }
+}
