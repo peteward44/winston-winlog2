@@ -46,5 +46,23 @@ describe('winston-winlog2', function() {
 			done( err );
 		} );
 	});
+		
+	it('info metadata', function(done) {
+		winston.info( 'info message', { 'meta': true, nested: { foo: 'bar', bool: true } }, function( err ) {
+			done( err );
+		} );
+	});
+	
+	it('warn metadata', function(done) {
+		winston.warn( 'warning message', { 'meta': true, nested: { foo: 'bar', bool: true } }, function( err ) {
+			done( err );
+		} );
+	});
+	
+	it('error metadata', function(done) {
+		winston.error( 'error message', { 'meta': true, nested: { foo: 'bar', bool: true } }, function( err ) {
+			done( err );
+		} );
+	});
 });
 

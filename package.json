@@ -1,6 +1,6 @@
 {
   "name": "winston-winlog2",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Windows Event Log logger for the node.js Winston module.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/peteward44/winston-winlog2",
   "dependencies": {
+    "circular-json": "^0.1.6",
     "node-windows": "^0.1.7",
     "winston": "^1.0.0"
   }
