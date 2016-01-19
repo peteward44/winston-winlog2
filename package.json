@@ -1,6 +1,6 @@
 {
   "name": "winston-winlog2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Windows Event Log logger for the node.js Winston module.",
   "main": "index.js",
   "scripts": {
